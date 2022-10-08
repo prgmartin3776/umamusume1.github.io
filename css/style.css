@@ -56,9 +56,18 @@ body p {
   font-weight: bold;
 }
 
-.rudorufu img{
-  width: 100%;
+/* div .rudorufu {
+  display: flex;
+  max-width: 1000px;
   text-align: center;
+} */
+
+.rudorufu img{
+  /* width: 100%; */
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
   border-radius: 10px;
 }
 
